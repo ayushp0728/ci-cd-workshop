@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-workshop-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter repo for a CI/CD workshop",
+  "scripts": {
+    "test": "jest",
+    "build": "node build-check.js",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "serve": "^14.2.4"
+  }
+}
