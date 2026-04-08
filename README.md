@@ -10,6 +10,23 @@ Students should create that themselves.
 - A simple build check that currently passes
 - A commented-out breaking change for the workshop
 
+
+
+### 1. Clone the repo
+
+```bash
+git clone <your-repo-url>
+cd ci-cd-workshop
+
+#macos
+python3 -m venv venv
+source venv/bin/activate
+
+#windows
+python -m venv venv
+venv\Scripts\activate
+
+
 ## Setup
 ```bash
 npm install
